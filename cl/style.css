@@ -1,0 +1,44 @@
+/*
+	text-grey: #353432; 
+*/
+body{
+	background-image: url("../assets/ricepaper2.png");
+	color: #353432; 
+	font-family: georgia;
+}
+.row{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.row div{
+	display: inline-block;
+}
+#row-introduction{
+	margin-top: 50px;
+}
+#banner{
+	width: 25%;
+	margin-left: 37.5%;
+}
+#banner img{
+	width: 100%;
+}
+.col-left{
+	margin-left: 22.5%;
+	width: 15%;
+	vertical-align: top;
+	padding-top: 20px;
+}
+.col-left span{
+	font-size: 1.3em;
+	font-weight: 550;
+    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.2);
+	
+}
+.col-right{
+	width: 35%;
+}
+.col-right span{
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
