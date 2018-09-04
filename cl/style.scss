@@ -1,0 +1,100 @@
+/*
+	text-grey: #353432; 
+*/
+body{
+	background-image: url("../assets/ricepaper2.png");
+	color: #353432; 
+	font-family: georgia;
+}
+.row{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.row div{
+	display: inline-block;
+}
+#row-introduction{
+	margin-top: 50px;
+}
+#banner{
+	width: 25%;
+	margin-left: 37.5%;
+}
+#banner img{
+	width: 100%;
+}
+.col-left{
+	margin-left: 22.5%;
+	width: 15%;
+	vertical-align: top;
+	padding-top: 20px;
+}
+.col-left span{
+	font-size: 1.5em;
+	font-weight: 550;
+    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.2);
+	
+}
+.col-right{
+	width: 35%;
+	span{
+		text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	}
+	.details{
+		text-align: center;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1285px){
+	.col-left{
+		margin-left: 10%;
+	}
+	.col-right{
+		margin-left: 12.5%;
+	}
+	#banner{
+		width: 50%;
+		margin-left: 25%;
+	}
+}
+@media only screen and (max-width: 760px){
+	.col-left{
+		width: 100%;
+		margin-left: 10%;
+	}
+	.col-right{
+		width: 90%;
+		margin: 5%;
+	}
+	#row-banner{
+		margin-bottom: 0;
+	}
+	#banner{
+		width: 75%;
+		margin-left: 15%;
+	}
+}
+@media print{
+		.col-left{
+		width: 100%;
+		margin-left: 10%;
+	}
+	.col-right{
+		width: 90%;
+		margin: 5%;
+	}
+	#row-banner{
+		margin-bottom: 0;
+	}
+	#banner{
+		width: 55%;
+		margin-left: 22.5%;
+	}
+	#row-education{
+		margin-bottom: 200px;
+	}
+	#row-jobs{
+		margin-top: 20px;
+	}
+}
